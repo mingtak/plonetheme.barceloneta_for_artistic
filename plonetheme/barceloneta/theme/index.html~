@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GamesNews | Premium HTML5 Magazine Template</title>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/typography.css">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <!-- Responsive -->
+        <link rel="stylesheet" media="(max-width:767px)" href="css/0-responsive.css">
+        <link rel="stylesheet" media="(min-width:768px) and (max-width:1024px)" href="css/768-responsive.css">
+        <link rel="stylesheet" media="(min-width:1025px) and (max-width:1199px)" href="css/1025-responsive.css">
+        <link rel="stylesheet" media="(min-width:1200px)" href="css/1200-responsive.css">
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
+         
+    </head>
+    <body class="painting">
+
+        <!-- Wrapper -->
+        <div id="wrapper" class="boxed">
+            
+            <!-- Header -->
+            <header id="header">
+                <!-- Header meta -->
+                <div class="header_meta">
+                    <div class="container">
+                        <div class="toggle_top_navigation"><i class="fa fa-bars"></i></div>
+                        <!-- Top menu -->
+                        <nav id="top_navigation" class="clearfix">
+<!--                            <ul class="top_navigation clearfix">
+                                <li><a href="#"><span>Homepages</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Home version</a></li>
+                                        <li><a href="index_1.html">Home version 1</a></li>
+                                        <li><a href="index_2.html">Home version 2</a></li>
+                                        <li><a href="index_3.html">Home version 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Blog</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog list</a></li>
+                                        <li><a href="blog_1.html">Blog grid</a></li>
+                                        <li><a href="blog_2.html">Blog standard</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Posts</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#"><span>Post layouts</span></a>                                             <ul class="sub-menu">                                                 <li><a href="post_standard.html">Post standard</a></li>                                                 <li><a href="post_standard_1.html">Post standard 1</a></li>                                             </ul>                                         </li>
+                                        <li><a href="post_gallery.html">Post gallery</a></li>
+                                        <li><a href="post_video.html">Post video</a></li>
+                                        <li><a href="post_audio.html">Post audio</a></li>
+                                        <li><a href="post_empty.html">Post no image</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Pages</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="page_shortcodes.html">Shortcodes</a></li>
+                                        <li><a href="page_404.html">404 Page</a></li>
+                                        <li><a href="page_fullwidth.html">Full width</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Shop</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="shop_category.html">Shop category</a></li>
+                                        <li><a href="shop_single.html">Shop single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Gallery</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="gallery_category.html">Gallery category</a></li>
+                                        <li><a href="gallery_single.html">Gallery single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://themeforest.net/?ref=CodeoStudio" target="_blank">Buy template</a></li>
+                            </ul> -->
+                        </nav>
+                        <!-- Social links -->
+                        <ul class="header_social_links clearfix">
+                            <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Header main -->
+                <div class="header_main">
+                    <div class="container">
+                        <div class="logo">
+                            <!--<h1><a href="index.html">Fastnews</a></h1>-->
+                            <a href="index.html"><img src="img/logo.png" alt="FashionNews" style="height:50px"></a>
+                        </div>
+<!--                        <div class="quick_links">
+                            <div class="link">
+                                <i class="fa fa-video-camera"></i>
+                                <a href="gallery_category.html">Gallery</a>
+                            </div>
+                            <div class="link">
+                                <i class="fa fa-shopping-cart"></i>
+                                <a href="shop_category.html">Shop</a>
+                            </div>
+                        </div> -->
+                        <div class="header_search">
+                            <form>
+                                <input type="text" placeholder="全文檢索..." value="" name="s">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header menu -->
+                <div id="header_menu" class="header_menu header_is_sticky">
+                    <div class="container">
+                        <div class="toggle_main_navigation"><i class="fa fa-bars"></i></div>
+                        <nav id="main_navigation" class="clearfix">
+                            <ul class="main_navigation clearfix">
+                                <li><a href="#"><span>Homepages</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Home version</a></li>
+                                        <li><a href="index_1.html">Home version 1</a></li>
+                                        <li><a href="index_2.html">Home version 2</a></li>
+                                        <li><a href="index_3.html">Home version 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Blog</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog list</a></li>
+                                        <li><a href="blog_1.html">Blog grid</a></li>
+                                        <li><a href="blog_2.html">Blog standard</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has_dt_mega_menu"><a href="#"><span>Mega menu</span></a>
+                                    <ul class="dt_mega_menu">
+                                        <li>
+                                            <!-- Widget recent posts -->
+                                            <aside class="widget">
+                                                <h3 class="widget_title">Recent posts</h3>
+                                                <div class="widget_custom_posts">
+                                                    <ul>
+<!--                                                        <li>
+                                                            <div class="entry_thumbnail">
+                                                                <a href="post_standard.html"><img src="img/demo6.jpg" alt="Post"></a>
+                                                            </div>
+                                                            <h3><a href="post_standard.html">Two NFL Players Lose Fingers</a></h3>
+                                                        </li>
+                                                        <li>
+                                                            <div class="entry_thumbnail">
+                                                                <a href="post_standard.html"><img src="demo/widget-posts/2.jpg" alt="Post"></a>
+                                                            </div>
+                                                            <h3><a href="post_standard.html">U.S. Runner Evan Jager's Triumph...</a></h3>
+                                                        </li>
+                                                        <li>
+                                                            <div class="entry_thumbnail">
+                                                                <a href="post_standard.html"><img src="demo/widget-posts/3.jpg" alt="Post"></a>
+                                                            </div>
+                                                            <h3><a href="post_standard.html">8 Injured in Pamplona Bull Run</a></h3>
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                            </aside>
+                                            
+                                            <!-- Widget timeline -->
+                                            <aside class="widget">
+                                                <h3 class="widget_title">Timeline</h3>
+                                                <div class="widget_timeline_posts">
+                                                    <div class="item">
+                                                        <span class="date">May 3</span>
+                                                        <span class="time">12:15 am</span>
+                                                        <div class="timeline_content">
+                                                            <div class="pin_holder"><div class="inside"></div></div>
+                                                            <h3><a href="post_standard.html">Health Insurers Dodge in 2015</a></h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <span class="date">Sep 24</span>
+                                                        <span class="time">16:14 am</span>
+                                                        <div class="timeline_content">
+                                                            <div class="pin_holder"><div class="inside"></div></div>
+                                                            <h3><a href="post_standard.html">NASCAR Offers to Confederate Flag</a></h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <span class="date">Oct 31</span>
+                                                        <span class="time">23:54 pm</span>
+                                                        <div class="timeline_content">
+                                                            <div class="pin_holder"><div class="inside"></div></div>
+                                                            <h3><a href="post_standard.html">Wimbledon 2015: Heat Break Rule</a></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </aside>
+                                            <!-- Widget tags -->
+                                            <aside class="widget widget_tag_cloud">
+                                                <h3 class="widget_title"><span>Tag cloud</span></h3>
+                                                <div class="tagcloud">
+                                                    <a href="#">design</a>
+                                                    <a href="#">photography</a>
+                                                    <a href="#">css</a>
+                                                    <a href="#">travel</a>
+                                                    <a href="#">wordpress</a>
+                                                    <a href="#">fashion</a>
+                                                    <a href="#">travel</a>
+                                                    <a href="#">tv</a>
+                                                    <a href="#">business</a>
+                                                    <a href="#">travel</a>
+                                                    <a href="#">fashion</a>
+                                                    <a href="#">psd</a>
+                                                    <a href="#">design</a>
+                                                    <a href="#">technology</a>
+                                                    <a href="#">js</a>
+                                                    <a href="#">music</a>
+                                                    <a href="#">wordpress</a>
+                                                    <a href="#">fashion</a>
+                                                    <a href="#">travel</a>
+                                                    <a href="#">tv</a>
+                                                    <a href="#">business</a>
+                                                    <a href="#">travel</a>
+                                                    <a href="#">fashion</a>
+                                                    <a href="#">psd</a>
+                                                </div>
+                                            </aside>
+                                            <!-- Widget banner 300x250 -->
+                                            <aside class="widget">
+                                                <h3 class="widget_title"><span>Advertisement 300x250</span></h3>
+                                                <div class="widget_banner_300x250">
+                                                    <a href="http://themeforest.net/?ref=CodeoStudio" target="_blank">
+                                                        <img src="demo/banner-ads/300x250.jpg" alt="Banner">
+                                                    </a>
+                                                </div>
+                                            </aside>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Drop down</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Shortcodes</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#"><span>Drop down</span></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Shortcodes</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">News</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contact us</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Travel</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Music</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Braking news -->
+<!--                <div class="breaking_news">
+                    <div class="container">
+                        <div class="breaking_news_title">Breaking news</div>
+                        <div class="breaking_news_container">
+                            <div><a href="post_standard.html">New Pocket-Sized Blotter Test Can Detect Ebola Strains in Just 30 Minutes</a></div>
+                            <div><a href="post_standard.html">No Joke: FIFA's Communications Director Resigns</a></div>
+                            <div><a href="post_standard.html">Swiss Attorney General Seizes IT Data From FIFA</a></div>
+                        </div>
+                    </div>
+                </div>
+-->
+            </header>
+                        
+            <!-- Container -->
+            <div class="container">
+                <div class="row">                    
+                    <!-- Main content -->
+                    <div class="col col_8_of_12 main_content">
+                        <!-- Main slider -->
+                        <div class="main_slider">
+                            <!-- Slide -->
+                            <div class="slide">
+                                <a href="post_standard.html"><img src="img/demo6.jpg" alt="Post"></a>
+                                <div class="slide_content">
+                                    <h3><a href="post_standard.html">舞動-躍動生命的靈魂...</a></h3>
+                                </div>
+                            </div>
+                            <!-- Slide -->
+                            <div class="slide">
+                                <a href="post_standard.html"><img src="img/demo7.jpg" alt="Post"></a>
+                                <div class="slide_content">
+                                    <h3><a href="post_standard.html">美術-這裏放一句標語化文字，可以大約多少字，太長會自動換行。</a></h3>
+                                </div>
+                            </div>
+                            <!-- Slide -->
+                            <div class="slide">
+                                <a href="post_standard.html"><img src="img/demo8.jpg" alt="Post"></a>
+                                <div class="slide_content">
+                                    <h3><a href="post_standard.html">音樂-這裏放一句標語化文字，可以大約多少字，太長會自動換行。</a></h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Title section -->
+                        <h5 class="title_section">最新消息</h5> 
+                        <!-- Article list view -->
+                        <div class="article_list_view">
+
+
+
+
+                                <div class="widget_timeline_posts">
+                                    <div class="item">
+                                        <span class="date">12 / 11</span>
+                                        <span class="time">12:15 AM</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">補助公立高級中等以下學校藝術才能班低（中低）收入戶學生支給外聘教師差額鐘點費說明會簡報檔</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">12 / 11</span>
+                                        <span class="time">12:15 AM</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">104學年度藝術才能班網站填報系統已開放</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">12 / 11</span>
+                                        <span class="time">12:15 AM</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">教育局處已可查閱各校填報情形</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">12 / 11</span>
+                                        <span class="time">12:15 AM</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">103學年度高級中等學校藝術才能(資優)班訪視實施計畫</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                        <!-- Title section -->
+                        <h5 class="title_section">活動訊息</h5> 
+
+                            <!-- Blog post -->
+                            <article class="item">
+                                <div class="item_header">
+                                    <a href="post_standard.html"><img src="img/demo1.jpg" alt="Post"></a>
+                                </div>
+                                <div class="item_content">
+                                    <h3><a href="post_standard.html">101學年度國民中小學藝術才能班網頁填報操作說明會實施計畫</a></h3>
+                                    <div class="entry_meta">
+                                        <span><i class="fa fa-clock-o"></i> 2015 / 12 / 20 發佈</span>
+
+                                    </div>
+                                    <p>參加對象：1.各直轄市、縣市教育局(處)薦派一名承辦「國民中小學藝術才能班」業務人員。
+                                       2.各直轄市、縣市國民中學、國民小學設有「美術班」、「音樂班」、「舞蹈班」之學校，各薦派一名負責承辦業務之組長或教師。
+                                    </p>
+
+                                </div>
+                            </article>
+                            <!-- Blog post -->
+                            <article class="item">
+                                <div class="item_header">
+                                    <a href="post_standard.html"><img src="img/demo2.jpg" alt="Post"></a>
+                                </div>
+                                <div class="item_content">
+                                    <h3><a href="post_standard.html">104跨領域創作體驗營E文宣</a></h3>
+                                    <div class="entry_meta">
+                                        <span><i class="fa fa-clock-o"></i> 2015 / 12 / 20 發佈</span>
+
+                                    </div>
+                                    <p>本活動將安排兩天的戲劇、音樂、舞蹈、視覺藝術及跨領域創作指導相關課程。
+                                    活動結束前將結合各領域學生之專長，進行跨領域創作演出，讓學員在跨領域藝術中體驗技藝應用的樂趣，及培養多元的創作能力。
+                                    </p>
+
+                                </div>
+                            </article>
+
+                        </div>
+
+
+                    </div>                    
+                    <!-- Sidebar area -->
+                    <div class="col col_4_of_12 sidebar_area">
+                        <div class="theiaStickySidebar">
+                            <!-- Widget search -->
+<!--                            <aside class="widget widget_search">
+                                <h3 class="widget_title">Search</h3>
+                                <form>
+                                    <input type="search" placeholder="Search...">
+                                </form>
+                            </aside>
+-->
+                            <!-- Widget social apps -->
+                            <aside class="widget">
+                                <h3 class="widget_title">各區子計畫</h3>
+                                <div class="widget_social_apps">
+                                    <div class="app_social facebook">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫1</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social twitter">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫2</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social pinterest">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫3</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social instagram">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫4</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social google">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫5</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social linkedin">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫6</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social flickr">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫7</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social vine">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫8</span>
+                                        </a>
+                                    </div>
+                                    <div class="app_social yellowbg">
+                                        <a href="#">
+                                            <span class="app_icon"><img src="img/small_unit.png"/></span>
+<!--                                            <span class="app_count">7845</span> -->
+                                            <span class="app_type">子計畫9</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </aside>
+                            <!-- Widget recent posts -->
+<!--                            <aside class="widget">
+                                <h3 class="widget_title">Recent posts</h3>
+                                <div class="widget_custom_posts">
+                                    <ul>
+                                        <li>
+                                            <div class="entry_thumbnail">
+                                                <a href="post_standard.html"><img src="demo/widget-posts/1.jpg" alt="Post"></a>
+                                            </div>
+                                            <h3><a href="post_standard.html">Two NFL Players Fingers in Firework Accidents</a></h3>
+                                            <div class="entry_meta">
+                                                <span><i class="fa fa-clock-o"></i> 2 hours ago</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="entry_thumbnail">
+                                                <a href="post_standard.html"><img src="demo/widget-posts/2.jpg" alt="Post"></a>
+                                            </div>
+                                            <h3><a href="post_standard.html">U.S. Runner Evan Jager's Triumph… and Face-Plant</a></h3>
+                                            <div class="entry_meta">
+                                                <span><i class="fa fa-clock-o"></i> 5 hours ago</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="entry_thumbnail">
+                                                <a href="post_standard.html"><img src="demo/widget-posts/3.jpg" alt="Post"></a>
+                                            </div>
+                                            <h3><a href="post_standard.html">3 People Gored, 8 Injured in Pamplona Bull Run</a></h3>
+                                            <div class="entry_meta">
+                                                <span><i class="fa fa-clock-o"></i> 1 day ago</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+-->
+                            <!-- Widget banner 300x250 -->
+<!--                            <aside class="widget">
+                                <h3 class="widget_title"><span>Advertisement 300x250</span></h3>
+                                <div class="widget_banner_300x250">
+                                    <a href="http://themeforest.net/?ref=CodeoStudio" target="_blank">
+                                        <img src="demo/banner-ads/300x250.jpg" alt="Banner">
+                                    </a>
+                                </div>
+                            </aside>
+-->
+                            <!-- Widget timeline -->
+<!--                            <aside class="widget">
+                                <h3 class="widget_title">Timeline</h3>
+                                <div class="widget_timeline_posts">
+                                    <div class="item">
+                                        <span class="date">May 3</span>
+                                        <span class="time">12:15 am</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">Health Insurers Dodge Obamacare Birth Control, Cancer Screening Rules</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">Sep 24</span>
+                                        <span class="time">16:14 am</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">NASCAR Offers to Confederate Flag for American at Daytona</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">Oct 31</span>
+                                        <span class="time">23:54 pm</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">Wimbledon 2015: Heat Break Rule for Women Row</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">Dec 19</span>
+                                        <span class="time">3:37 pm</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">Football Legend Diego Maradona to Reportedly Run for FIFA President</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+-->
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            
+            <!-- Wild container -->
+            <div class="wild_conatiner">
+                <div class="container">
+                    <!-- Section title -->
+                    <h5 class="title_section">藝術才能班學校簡介</h5>
+                    <!-- Article grid view -->
+                    <div class="row article_standard_view">
+                        <div class="col col_3_of_12">
+                            <article class="item">
+                                <div class="item_header">
+                                    <a href="post_standard.html"><img src="img/demo3.jpg" alt="Post"></a>
+                                </div>
+                                <div class="item_content">
+                                    <h3 class="schooltitle"><a href="post_standard.html">新北市立三重高級中學</a></h3>
+                                    <div class="entry_meta">
+                                        <span>培養國際視野的科技藝術家</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col col_3_of_12">
+                            <article class="item">
+                                <div class="item_header">
+                                    <a href="post_standard.html"><img src="img/demo4.jpg" alt="Post"></a>
+                                </div>
+                                <div class="item_content">
+                                    <h3 class="schooltitle"><a href="post_standard.html">雲林縣斗六國民小學</a></h3>
+                                    <div class="entry_meta">
+                                        <span>透過美術認知、鑑賞及創作活動，涵養學生之美感情操及健全人格。</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col col_3_of_12">
+                            <article class="item">
+                                <div class="item_header">
+                                    <a href="post_standard.html"><img src="img/demo5.jpg" alt="Post"></a>
+                                </div>
+                                <div class="item_content">
+                                    <h3 class="schooltitle"><a href="post_standard.html">屏東縣立大同高級中學</a></h3>
+                                    <div class="entry_meta">
+                                        <span>配合美術教學需要，辦理校內參觀教學，提昇鑑賞能力。</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col col_3_of_12">
+                            <article class="item">
+                                <div class="item_header">
+                                    <a href="post_standard.html"><img src="img/demo1.jpg" alt="Post"></a>
+                                </div>
+                                <div class="item_content">
+                                    <h3 class="schooltitle"><a href="post_standard.html">國立內壢高級中學</a></h3>
+                                    <div class="entry_meta">
+                                        <span>提供學生在「快樂中學習，進步中成長」之學習環境。</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+<a href="#" style="float:right">學校列表...</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Footer -->
+<!--            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col_4_of_12">
+                            <aside class="widget widget_text">
+                                <h3 class="widget_title"><span>About FastNews</span></h3>
+                                <div class="textwidget">
+                                    <p>Vivamus a quam ullamcorper, hendrerit elit sed, finibus est. Nullam non varius eros, sed egestas nulla. Etiam interdum purus sed turpis pretium placerat. Sed at convallis ligula.</p>
+                                    <p>Vivamus a quam ullamcorper, hendrerit elit sed, finibus est. Nullam non varius eros, sed egestas nulla.</p>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-map-marker"></i>Address: East London, UK</li>
+                                        <li><i class="fa-li fa fa-phone"></i>Phone: +848 5499 654</li>
+                                        <li><i class="fa-li fa fa-envelope"></i>Email: info@example.com</li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col col_4_of_12">
+                            <aside class="widget">
+                                <h3 class="widget_title">Recent posts</h3>
+                                <div class="widget_custom_posts">
+                                    <ul>
+                                        <li>
+                                            <div class="entry_thumbnail">
+                                                <a href="post_standard.html"><img src="demo/widget-posts/1.jpg" alt="Post"></a>
+                                            </div>
+                                            <h3><a href="post_standard.html">Two NFL Players Fingers in Firework Accidents</a></h3>
+                                            <div class="entry_meta">
+                                                <span><i class="fa fa-clock-o"></i> 2 hours ago</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="entry_thumbnail">
+                                                <a href="post_standard.html"><img src="demo/widget-posts/2.jpg" alt="Post"></a>
+                                            </div>
+                                            <h3><a href="post_standard.html">U.S. Runner Evan Jager's Triumph… and Face-Plant</a></h3>
+                                            <div class="entry_meta">
+                                                <span><i class="fa fa-clock-o"></i> 5 hours ago</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="entry_thumbnail">
+                                                <a href="post_standard.html"><img src="demo/widget-posts/3.jpg" alt="Post"></a>
+                                            </div>
+                                            <h3><a href="post_standard.html">3 People Gored, 8 Injured in Pamplona Bull Run</a></h3>
+                                            <div class="entry_meta">
+                                                <span><i class="fa fa-clock-o"></i> 1 day ago</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col col_4_of_12">
+                            <aside class="widget">
+                                <h3 class="widget_title">Timeline</h3>
+                                <div class="widget_timeline_posts">
+                                    <div class="item">
+                                        <span class="date">May 3</span>
+                                        <span class="time">12:15 am</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">Health Insurers Dodge Obamacare Birth Control, Cancer Screening Rules</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">Sep 24</span>
+                                        <span class="time">16:14 am</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">NASCAR Offers to Confederate Flag for American at Daytona</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">Oct 31</span>
+                                        <span class="time">23:54 pm</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">Wimbledon 2015: Heat Break Rule for Women Row</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <span class="date">Dec 19</span>
+                                        <span class="time">3:37 pm</span>
+                                        <div class="timeline_content">
+                                            <div class="pin_holder"><div class="inside"></div></div>
+                                            <h3><a href="post_standard.html">Football Legend Diego Maradona to Reportedly Run for FIFA President</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+-->
+            <!-- Copyright -->
+            <div id="copyright">
+                <div class="container">
+
+國立臺灣師範大學 National Taiwan Normal University 10610臺北市和平東路一段162號 (02)7734-3677<br/>
+(10610) 162, HePing East Road, Section 1, Taipei, Taiwan Copyright ⓒ 2012 National Taiwan Normal University All rights reserved. 
+
+
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Javascripts -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery-stickykit.js"></script>
+        <script src="js/jquery-lightbox.js"></script>
+        <script src="js/jquery-fitvids.js"></script>
+        <script src="js/jquery-carousel.js"></script>
+        <script src="js/jquery-init.js"></script>
+         
+    </body>
+</html>
