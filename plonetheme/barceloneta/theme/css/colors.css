@@ -15,7 +15,8 @@ a:hover,
 .entry_category a,
 blockquote.alt:before,
 .page_404 i {
-    color: #2599CF
+    color:#A0A1D6
+/*    color: #2599CF */
 }
 
 /*------------------------------------------------------------------
@@ -33,7 +34,8 @@ blockquote.alt:before,
 .onsale,
 .post_review .criteria_lines .criteria_footer span,
 .widget_post_reviews ul li .entry_review {
-    background-color: #2599CF
+    background-color:#A0A1D6
+/*    background-color: #2599CF */
 }
 
 /*------------------------------------------------------------------
@@ -41,5 +43,10 @@ blockquote.alt:before,
 -------------------------------------------------------------------*/
 blockquote,
 .widget_timeline_posts .timeline_content .pin_holder .inside {
-    border-color: #2599CF
+    border-color:#A0A1D6
+/*    border-color: #2599CF */
 }
+
+
+
+/* goog color: A0A1D6  */

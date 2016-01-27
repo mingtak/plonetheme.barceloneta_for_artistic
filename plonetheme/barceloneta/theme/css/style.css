@@ -606,7 +606,7 @@ h3.widget_title {
 .widget_social_apps .app_social {
     margin: 0 0.5% 0.5% 0.5%;
 /*    width: 24%; */
-    width: 32%;
+    width: 48%;
     float: left;
     text-align: center;
     background-color: #111;
@@ -2430,9 +2430,14 @@ article.item .item_post_share .item_post_share_content a.pinterest:hover {
 /*------------------------------------------------------------------
     9.2 Article list view
 -------------------------------------------------------------------*/
+/* new */
+.article_list_view .item.cover {
+    margin-bottom: 0px
+}
 .article_list_view .item {
     margin-bottom: 30px
 }
+
 .article_list_view .item .item_header {
     width: 40%;
     float: left;

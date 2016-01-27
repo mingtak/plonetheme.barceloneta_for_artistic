@@ -40,8 +40,10 @@
         // Main  slider
         jQuery(".main_slider").owlCarousel({
             singleItem: true,
-            pagination: true,
-            navigation: false
+            pagination: false,
+            autoPlay: true,
+            loop: true,
+            navigation: false,
         });
         
         // Slider articles

@@ -14,8 +14,8 @@
   <!-- title -->
   <replace css:theme="html head title" css:content="html head title" />
 
-  <!-- language tab -->
-<!--  <replace css:content-children="div#language_tab" css:theme="nav ul.nav.nav-pills.nav-top" /> -->
+  <!-- login & language -->
+  <replace css:content="ul.header_social_links.clearfix" css:theme="ul.header_social_links.clearfix" />
 
   <!-- logo -->
   <copy attributes="href" css:content="a#portal-logo" css:theme="div.logo a" />
@@ -40,25 +40,30 @@
             <xsl:apply-templates />
           </replace>
 
+  <!-- cover slider -->
+  <replace css:content-children="#cover_slider" css:theme="div.main_slider" />
+
   <!-- addthis -->
-  <before css:theme-children="div#content div.container div.row div.col-md-9"
-           css:content="#addthiscode" />
+<!--  <before css:theme-children="div#content div.container div.row div.col-md-9"
+           css:content="#addthiscode" /> -->
 
   <!-- documentFirstHeading -->
   <before css:theme-children="div#content div.container div.row div.col-md-9"
           css:content="h1.documentFirstHeading" />
 
   <!-- content -->
-  <replace css:theme-children="div#content div.container div.row div.col-md-9"
-           css:content="#content-core" />
-  <replace css:theme="div#content div.slider-container"
-           css:content-children="#viewlet_hero_slider" />
-  <before css:theme-children="div#content div.container div.row div.col-md-9"
-           css:content="#viewlet_banner_slider" />
-<!--  <drop css:content="article#content header" />
--->
+
+  <replace css:theme="section.content"
+           css:content-children="article#content" if="$is_anonymous" />
+
+  <!-- school information listing -->
+  <replace css:theme="div.wild_conatiner" css:content="div.wild_conatiner" />
+
+
 
         <!-- sidebar -->
+        <replace css:theme="aside.widget.subproject" css:content="aside.widget.subproject"/>
+<!--        
         <replace css:theme-children="div#plone-sidebar" css:content="aside#portal-column-one" />
         <drop css:content="div#portal-column-two" />
 
@@ -75,7 +80,7 @@
             </label>
           </section>
         </replace>
-
+-->
 
 
         <!-- infomation (portal message), tag dl and tag div -->
