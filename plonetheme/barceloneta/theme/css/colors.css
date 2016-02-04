@@ -50,3 +50,9 @@ blockquote,
 
 
 /* goog color: A0A1D6  */
+
+
+/* custom */
+table tbody tr.even {
+    background-color:rgba(56, 44, 76, 0.17);
+}

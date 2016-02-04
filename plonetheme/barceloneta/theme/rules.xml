@@ -62,7 +62,10 @@
 
 
         <!-- sidebar -->
-        <replace css:theme="aside.widget.subproject" css:content="aside.widget.subproject"/>
+        <drop css:theme="aside.widget.subproject"/>
+        <after css:theme="aside.widget.subproject" css:content="aside.widget.subproject"/>
+        <after css:theme="aside.widget.subproject" css:content="aside.widget.login-portlet"/>
+
 <!--        
         <replace css:theme-children="div#plone-sidebar" css:content="aside#portal-column-one" />
         <drop css:content="div#portal-column-two" />
