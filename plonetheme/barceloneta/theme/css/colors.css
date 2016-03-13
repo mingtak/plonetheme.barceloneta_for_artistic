@@ -15,8 +15,9 @@ a:hover,
 .entry_category a,
 blockquote.alt:before,
 .page_404 i {
-    color:#A0A1D6
-/*    color: #2599CF */
+    color: #6F00F4
+/*    color:#A0A1D6
+    color: #2599CF */
 }
 
 /*------------------------------------------------------------------
@@ -34,8 +35,9 @@ blockquote.alt:before,
 .onsale,
 .post_review .criteria_lines .criteria_footer span,
 .widget_post_reviews ul li .entry_review {
-    background-color:#A0A1D6
-/*    background-color: #2599CF */
+    background-color: #6F00F4
+/*    background-color:#A0A1D6
+    background-color: #2599CF */
 }
 
 /*------------------------------------------------------------------
@@ -43,8 +45,9 @@ blockquote.alt:before,
 -------------------------------------------------------------------*/
 blockquote,
 .widget_timeline_posts .timeline_content .pin_holder .inside {
-    border-color:#A0A1D6
-/*    border-color: #2599CF */
+    border-color: #6F00F4
+/*    border-color:#A0A1D6
+    border-color: #2599CF */
 }
 
 
