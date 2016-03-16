@@ -1372,8 +1372,14 @@ hr.divider_dotted {
 .btn.btn_orange:hover {
     background-color: #d17200
 }
+/*
 .btn.btn_purple {
     background-color: #9b59b6
+}
+*/
+/* custom */
+.btn.btn_purple {
+    background-color: #6F00F4
 }
 .btn.btn_purple:hover {
     background-color: #8948a3
