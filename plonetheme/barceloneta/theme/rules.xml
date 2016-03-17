@@ -40,6 +40,9 @@
             <xsl:apply-templates />
           </replace>
 
+  <!-- Breaking News -->
+  <replace css:content-children="nav#portal-breadcrumbs" css:theme="div.breaking_news" />
+
   <!-- cover slider -->
   <replace css:content-children="#cover_slider" css:theme="div.main_slider" />
 

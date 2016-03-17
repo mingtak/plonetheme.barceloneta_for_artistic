@@ -606,7 +606,8 @@ h3.widget_title {
 .widget_social_apps .app_social {
     margin: 0 0.5% 0.5% 0.5%;
 /*    width: 24%; */
-    width: 48%;
+/*    width: 48%; */
+    width: 100%;
     float: left;
     text-align: center;
     background-color: #111;
@@ -641,6 +642,9 @@ h3.widget_title {
 }
 .widget_social_apps .app_social.yellowbg {
     background-color: #fefa40
+}
+.widget_social_apps .app_social.graybg {
+    background-color: #a6a6a6
 }
 .widget_social_apps .app_social:hover {
     background-color: #111
