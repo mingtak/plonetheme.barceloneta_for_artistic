@@ -67,6 +67,7 @@
         <!-- sidebar -->
         <drop css:theme="aside.widget.subproject"/>
         <after css:theme="aside.widget.subproject" css:content="aside.widget.subproject"/>
+        <after css:theme="aside.widget.subproject" css:content="aside.widget.school_search_portlet"/>
         <after css:theme="aside.widget.subproject" css:content="aside.widget.login-portlet"/>
 
 <!--        
